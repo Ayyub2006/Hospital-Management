@@ -8,6 +8,6 @@ import com.appointment.hospital.entity.DoctorLeave;
 
 public interface DoctorLeaveRepository extends JpaRepository<DoctorLeave, Long>{
 	
-	boolean existsByDoctorIdAndLeaveDate(Long doctorId, LocalDate leavedate);
+	boolean existsByDoctor_IdAndLeaveDate(Long doctorId, LocalDate leaveDate);
 
 }
